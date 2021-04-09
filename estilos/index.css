@@ -2,7 +2,12 @@
 a{text-decoration: none;}
 li{list-style: none;}
 
-header{width: 100%; background-color: #000000;}
+.contato{width: 100%;padding: 15px 0px;background-color: #000000;}
+.contato-container{max-width: 80%;display: flex;align-items: center;justify-content: space-between;color:#fff;margin: 0 auto;}
+.rede-social{display: flex; align-items: center;}
+.rede-social img{margin:0 10px;}
+
+header{width: 100%;background-color: #131313;}
 .container-header{max-width: 80%;display: flex; justify-content: space-between;margin: 0 auto;color:#fff;align-items: center;}
 .container-header .logo h1 {color:#fff;padding: 50px 0px;}
 .container-header .logo span{background-color:rgb(255, 127, 7);color:#000000;}
@@ -15,4 +20,23 @@ nav ul li a:hover{background-color: rgb(255, 127, 7);padding:8px 20px;transition
 #mochila span{color:#fff;background-color:rgb(255, 127, 7);border-radius: 200px;padding: 2px 7px;position: relative;right: 20px;}
 #usuario{margin-left: 30px;}
 
+/*marcas*/
 
+#marcas{width: 100%;padding: 50px;}
+.container-marcas{width: 80%;margin: 0 auto;}
+.hero-marcas{background-image: url('/img/index/capa-one.png');
+height: 50vh;padding: 70px 30px;}
+.hero-marcas h2{ font-size: 55px;}
+.hero-marcas p{font-size: 30px;margin-bottom:20px;}
+.hero-marcas a{padding: 8px 20px;color:#000000;text-decoration: none;background-color: rgb(255, 127, 7);font-size: 15px;font-weight: 700;}
+.hero-marcas a:hover{background-color: rgb(170, 86, 8);}
+
+/*produtos*/
+#produtos{width: 100%;}
+.container-produto{display: flex;justify-content: space-between;flex-wrap: wrap;margin:0 auto;}
+
+.box-produto{width: 200px;text-align: center;margin: 10px}
+.box-produto img{width: 100%;}
+.box-produto h4{padding-bottom: 5px;}
+.box-produto p, span{padding-bottom: 10px;font-size: 18px;}
+.box-produto a{padding: 8px 25px;font-size: 12px;background-color: #000000;margin-bottom: 10px;color:#fff;}
