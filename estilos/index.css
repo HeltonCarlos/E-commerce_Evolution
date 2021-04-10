@@ -52,4 +52,21 @@ height: 50vh;padding: 70px 30px;}
 #passeios a{padding: 8px 25px;font-size: 12px;background-color: rgb(255, 127, 7);margin-bottom: 10px;color:#fff;}
 
 
-/*passeios*/
+/*eventos*/
+eventos{width: 100%;margin-top: 50px auto;}
+.container-eventos{max-width: 80%;margin: 0 auto;padding: 50px 0px;}
+.container-eventos h2{font-size: 35px;}
+.box-divisao{padding: 20px 0px;display: flex;justify-content: space-between;}
+.box-eventos{width: 450px;background-color: #131313;margin: 5px;}
+.box-eventos h3{width: 100%;background-color: rgb(255, 127, 7);padding: 20px 0px;text-transform: uppercase;text-align: center;}
+
+/*DICAS*/
+
+dicas{width: 100%;}
+.container-dicas{max-width: 80%;margin: 0 auto;padding: 50px 0px;}
+.container-dicas h2{font-size: 35px;}
+.box-dicas{display: flex;align-items: center;}
+.box-dicas img{margin:50px 20px;}
+.box-dicas h3{font-size: 25px;}
+.box-dicas p{padding: 10px 0px;font-weight: 500;}
+.box-dicas a{padding: 8px 25px;font-size: 12px;background-color: rgb(255, 127, 7);margin-bottom: 10px;color:#fff;}
