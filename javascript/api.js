@@ -1,16 +1,16 @@
 const produtos =[
     {
         id:01,
-        nome:'SKATE STREET OWL',
+        nome:'SKATE STREET OWL / SKY TOP ENDURE',
         descricao:'Shape de skate Street nacional bastante dinâmico, encaixa em várias configurações de skate,Possui 7 folhas de Marfim que garante um ótimo equilíbrio entre absorção de impacto e leveza. Os shapes de skates OWL são fabricados no Brasil com extração controlada e certificada.',
-        preco:91.90,
+        preco:91.99,
         img:'/img/produtos/SKATE STREET OWL SPORTS.png'
     },
     {
         id:02,
         nome:'TraxartSkate Traxart X-Pro Skeleton DW-233',
         descricao:'O Skate Traxart X-PRO é um skate montado com as melhores peças do mercado; por isso é o skate top de linha da Traxart.',
-        preco:180.90,
+        preco:180.59,
         img:'/img/produtos/TraxartSkate Traxart X-Pro Skeleton DW-233.png'
     },
     {
@@ -24,7 +24,7 @@ const produtos =[
         id:04,
         nome:'Skate Traxart X-Pro Black and White Skull DW-243',
         descricao:'O Skate Traxart X-PRO é um skate montado com as melhores peças do mercado; por isso é o skate top de linha da Traxart.',
-        preco:190.90,
+        preco:190.99,
         img:'/img/produtos/Skate Traxart X-Pro Black and White Skull DW-243.png'
     },
     {
@@ -36,23 +36,40 @@ const produtos =[
     },
     {
         id:06,
-        nome:'Skate Longboard',
+        nome:'Skate Longboard / SPEED FORCE',
         descricao:'O Skate Longboard Speed da OWL é ideal para quem gosta de sentir a velocidade em seus pés, descer ladeiras e percorrer longas distâncias, conta com rodas fundidas (derramadas) do nosso modelo OWL SUN, rodas que tem ótimo grip, não recomendadas para lentidão ou moscação. Por ser bem estável é um longboard fácil para aprender e se equilibrar.',
-        preco:255.00,
+        preco:255.15,
         img:'/img/produtos/Skate Longboard.png'
     },
     {
         id:07,
-        nome:'Skate Barbie',
+        nome:'Skate Barbie / KIT GIRL PROFISSIONAL',
         descricao:'Detalhes do produtoMarca FunModelo 7619-1Referência Skate BarbieIdade recomendada A partir dos 08 anosGênero FemininoDesenvolvimento pedagógico Agilidade,Coordenação motora,Tato,audição e visãoGarantia do fabricante 03 meses.',
-        preco:321.90,
+        preco:321.95,
         img:'/img/produtos/Skate_com_Acessorios_Barbie.png'
     },
     {
         id:08,
-        nome:'SKATE JURASSIC WORLD',
+        nome:'SKATE JURASSIC WORLD/TEMÁTICOS',
         descricao:'Skate Infantil Jurassic World Portal™ foi pensado para as crianças que estão sempre em busca de novas formas de se divertir e brincar. Com Shape Maple 31, trucks feitos em alumínio, rolamentos ABEC 5 além de contar com uma linda estampa de Jurassic World™. Feito em material resistente, o Skate é um ótimo presente para as crianças que gostam de esportes radicais sem deixar de lado a segurança.',
         preco:190.99,
-        img:'/img/produtos/skateboard_j_w.png'  
-    }
+        img:'/img/produtos/skateboard_j_w.png'
+    },
 ]
+
+buscarProduto=()=>{
+ const produto= document.querySelector(".container-produto");
+ produtos.map((itens)=>{
+     produto.innerHTML+=`
+     <div class="box-produto">
+     <img src="`+itens.img+`" alt="`+itens.nome+`" id="img-produto">
+     <h4 id="nome-produto">`+itens.nome+`</h4>
+     <p>R$ <span  id="desc-produto">`+itens.preco+`</span></p>
+     <a href="#">SAIBA MAIS</a>
+     </div>
+     `;
+    })
+
+}
+
+buscarProduto();

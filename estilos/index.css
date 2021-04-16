@@ -2,8 +2,6 @@
 a{text-decoration: none;}
 li{list-style: none;}
 
-
-
 .contato{width: 100%;padding: 15px 0px;background-color: #000000;}
 .contato-container{max-width: 80%;display: flex;align-items: center;justify-content: space-between;color:#fff;margin: 0 auto;}
 .rede-social{display: flex; align-items: center;}
@@ -47,10 +45,10 @@ height: 50vh;padding: 70px 30px;}
     background-color: rgb(255, 127, 7)
 }
 .container-produto{display: flex;justify-content: space-between;flex-wrap: wrap;margin:0 auto;}
-.box-produto{width: 200px;text-align: center;margin: 10px}
+.box-produto{width: 200px;text-align: center;margin: 20px}
 .box-produto img{width: 100%;}
-.box-produto h4{padding-bottom: 10px;}
-.box-produto p{padding-bottom: 20px;font-size: 18px;}
+.box-produto h4{padding: 20px 0px 5px 0px;}
+.box-produto p{padding-bottom: 15px;font-size: 18px;}
 .box-produto a{padding: 10px 25px;font-size: 12px;background-color: #000000;font-weight: 700;margin-bottom: 10px;color:#fff;border-radius: 10px;box-shadow:  0 0 0.4em black;}
 .box-produto a:hover{color:rgb(255, 127, 7)}
 
